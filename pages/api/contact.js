@@ -46,9 +46,7 @@ async function handler(req, res) {
 
     client.close();
 
-    res
-      .status(201)
-      .json({ message: "Successfully stored message!", message: newMessage });
+    res.status(201).json({ message: "Successfully stored message!" });
   }
 }
 
