@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
       <body>
         <MainNavigation />
         <main>{children}</main>
+        <div id="notification"></div>
       </body>
     </html>
   );
